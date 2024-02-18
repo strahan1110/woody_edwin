@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #AB7442;
     --light: #F5F5F5;
-    --dark: #353535;
+    --dark: #3c1613;
+    --primary: #70322c;
 }
 
 .fw-medium {
@@ -195,6 +195,7 @@
     color: #FFFFFF;
     background: transparent;
     border: 1px solid #FFFFFF;
+    border-radius: 20px;
     font-size: 22px;
     transition: .5s;
 }
@@ -225,6 +226,7 @@
     background: transparent;
     border: 1px solid #FFFFFF;
     transition: .5s;
+    border-radius: 20px;
 }
 
 .header-carousel .owl-dot::after {
@@ -236,6 +238,7 @@
     left: 4px;
     background: transparent;
     border: 1px solid #FFFFFF;
+    border-radius: 20px;
 }
 
 .header-carousel .owl-dot.active {
@@ -422,6 +425,10 @@
 
 
 /*** Team ***/
+.team-item {
+    justify-content: center;
+}
+
 .team-item img {
     transition: .5s;
 }
@@ -575,6 +582,7 @@
     justify-content: center;
     color: var(--light);
     border: 1px solid #FFFFFF;
+    border-radius: 20px;
     transition: .3s;
 }
 
