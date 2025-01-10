@@ -6,7 +6,32 @@
     <title>Janges Brothers</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-
+<!--  TAG DE CHATBOT AI LADO IZQUIERDO -->
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js'></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    window.AgentInitializer.init({
+      rootId: "JotformAgent-01944e0f6fdd769ba63c40116b7d292acba4",
+      formID: "01944e0f6fdd769ba63c40116b7d292acba4",
+      queryParams: ["skipWelcome=1", "maximizable=1"],
+      domain: "https://www.jotform.com",
+      isInitialOpen: false,
+      isDraggable: false,
+      background: "linear-gradient(180deg, #5A4B45 0%, #5A4B45 100%)",
+      buttonBackgroundColor: "#321F16",
+      buttonIconColor: "#FFF",
+      variant: false,
+      customizations: {
+        "greeting": "Yes",
+        "greetingMessage": "Hola ¿necesitas ayuda?",
+        "pulse": "Yes",
+        "position": "left"
+      },
+      isVoice: undefined
+    });
+  });
+</script>
+    
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R07DMWWTFW"></script>
 <script>
